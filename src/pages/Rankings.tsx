@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { Trophy, Sword, Shield, Flame, Crosshair, Axe, Crown, Sparkles } from "lucide-react";
+import { Trophy, Sword, Shield, FlaskConical, ShieldPlus, Axe, Crown, Sparkles, Diamond } from "lucide-react";
 import PageBanner from "@/components/PageBanner";
 
 const gamemodes = [
   { id: "overall", label: "Overall", icon: Trophy },
-  { id: "vanilla", label: "Vanilla", icon: Sword },
+  { id: "vanilla", label: "Vanilla", icon: Diamond },
   { id: "uhc", label: "UHC", icon: Shield },
-  { id: "pot", label: "Pot", icon: Flame },
-  { id: "nethop", label: "NethOP", icon: Crosshair },
+  { id: "pot", label: "Pot", icon: FlaskConical },
+  { id: "nethop", label: "NethOP", icon: ShieldPlus },
   { id: "smp", label: "SMP", icon: Crown },
   { id: "sword", label: "Sword", icon: Sword },
   { id: "axe", label: "Axe", icon: Axe },
