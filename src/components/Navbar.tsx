@@ -68,12 +68,13 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       <nav className="sm:hidden flex items-center justify-between bg-background/80 backdrop-blur-xl border border-foreground/5 rounded-2xl px-4 py-3 shadow-2xl shadow-black/30">
-        <Link to="/" className="shrink-0">
+        <Link to="/" className="flex items-center gap-2 shrink-0">
           <img
             src="https://i.postimg.cc/Gh9rY7r5/rydenclient.png"
             alt="Ryden Tiers"
             className="h-7"
           />
+          <span className="text-primary font-black text-base tracking-tight">RydenTiers</span>
         </Link>
 
         <button onClick={() => setSearchOpen(!searchOpen)} className="text-foreground/50 hover:text-foreground">
