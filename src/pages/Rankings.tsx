@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Trophy, Sword, Shield, Flame, Crosshair, Axe, Crown, Sparkles } from "lucide-react";
+import { Trophy, Sword, Shield, FlaskConical, ShieldPlus, Axe, Crown, Sparkles, Diamond } from "lucide-react";
 import PageBanner from "@/components/PageBanner";
 
 const gamemodes = [
