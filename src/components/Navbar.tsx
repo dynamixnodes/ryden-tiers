@@ -24,6 +24,7 @@ const Navbar = () => {
             alt="Ryden Tiers"
             className="h-8"
           />
+          <span className="text-primary font-black text-lg tracking-tight">RydenTiers</span>
         </Link>
 
         {/* Center: Nav Links */}
