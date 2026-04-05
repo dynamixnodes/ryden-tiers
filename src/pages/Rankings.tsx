@@ -7,7 +7,7 @@ const gamemodes = [
   { id: "vanilla", label: "Vanilla", icon: Diamond },
   { id: "uhc", label: "UHC", icon: Shield },
   { id: "pot", label: "Pot", icon: FlaskConical },
-  { id: "nethop", label: "NethOP", icon: ShieldPlus },
+  { id: "nethop", label: "NethOP", icon: Shield },
   { id: "smp", label: "SMP", icon: Crown },
   { id: "sword", label: "Sword", icon: Sword },
   { id: "axe", label: "Axe", icon: Axe },

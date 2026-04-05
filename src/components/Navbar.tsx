@@ -59,10 +59,10 @@ const Navbar = () => {
               className="bg-foreground/5 border border-foreground/10 rounded-xl pl-9 pr-4 py-2 text-sm text-foreground placeholder:text-foreground/30 focus:outline-none focus:border-primary/50 w-40 transition-all"
             />
           </div>
-          <button className="flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-xl text-sm font-bold hover:brightness-110 transition-all">
+          <a href="https://discord.gg/EmEq93eY8n" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-xl text-sm font-bold hover:brightness-110 transition-all">
             <Zap size={14} />
             GET TESTED
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -123,10 +123,10 @@ const Navbar = () => {
               </Link>
             );
           })}
-          <button className="w-full flex items-center justify-center gap-2 bg-primary text-primary-foreground px-5 py-3 rounded-xl text-sm font-bold mt-2">
+          <a href="https://discord.gg/EmEq93eY8n" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 bg-primary text-primary-foreground px-5 py-3 rounded-xl text-sm font-bold mt-2">
             <Zap size={14} />
             GET TESTED
-          </button>
+          </a>
         </div>
       )}
     </div>
